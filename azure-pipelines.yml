@@ -10,7 +10,7 @@ steps:
 - task: Ant@1
   inputs:
     workingDirectory: ''
-    buildFile: 'build.xml'
+    buildFile: 'icu4j/build.xml'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.10'
     jdkArchitectureOption: 'x86'
